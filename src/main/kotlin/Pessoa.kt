@@ -9,7 +9,11 @@ class Pessoa {
         var rua: String = "Rua Japao"
     }
 
+    fun pessoaInfos(){
 
+        println("O nome da pessoa é $nome e seu cpf é $cpf")
+
+    }
 
 }
 
@@ -17,9 +21,12 @@ fun main(){
 
     val patrick = Pessoa()
 
+    /*
     println(patrick.nome)
     println(patrick.cpf)
-    println(patrick.Endereco().rua)
+    println(patrick.Endereco().rua)*/
+
+    patrick.pessoaInfos()
 
 
 }
