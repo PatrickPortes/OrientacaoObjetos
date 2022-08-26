@@ -1,3 +1,5 @@
+package classes
+
 class Pessoa {
 
     var nome: String = "Patrick"
